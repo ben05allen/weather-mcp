@@ -3,9 +3,6 @@ name = "mcptutorial"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-authors = [
-    { name = "ben05allen", email = "ben05allen@hotmail.com" }
-]
 requires-python = ">=3.13"
 dependencies = [
     "httpx>=0.28.1",
@@ -13,7 +10,7 @@ dependencies = [
 ]
 
 [project.scripts]
-mcptutorial = "mcptutorial:main"
+weather = "mcptutorial:main"
 
 [build-system]
 requires = ["hatchling"]
